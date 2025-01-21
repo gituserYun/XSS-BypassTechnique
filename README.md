@@ -16,3 +16,9 @@
 ## 페이로드 Referer to ... 
 - [주요정보통신기반시설_기술적_취약점_분석_평가_방법_상세가이드.pdf](https://www.kisa.or.kr/2060204/form?postSeq=12&lang_type=KO&page=1#fndoDocumentPreview)
 - [PortSwigger_Cross-site scripting (XSS) cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
+<br/><br/>
+
+## 진단 시, 유용한 참고 사이트
+- [인코딩/디코딩 사이트](https://dencode.com/)
+- [RequestBin 사이트](https://pipedream.com/)
+  
