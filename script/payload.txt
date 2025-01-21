@@ -1,0 +1,5 @@
+<script>alert(1)</script>
+<script>confirm(1)</script>
+<script>prompt(1)</script>
+
+<script>alert(document.cookieo)</script>
