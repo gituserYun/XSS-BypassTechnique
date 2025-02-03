@@ -8,9 +8,9 @@
 <br/><br/>
 
 ## 기술 목록
-- **Stored XSS**: 서버에 저장된 스크립트가 사용자에게 전달되는 방식
-- **Reflected XSS**: 사용자 입력이 즉시 반영되어 실행되는 방식
-- **DOM-based XSS**: 클라이언트 측에서 JavaScript를 통해 발생하는 방식
+- **Stored XSS**: 악성 스크립트를 웹 어플리케이션 서버에 저장되어,해당 페이지를 방문하는 Victim이 악의적 영향을 받는 방식
+- **Reflected XSS**: Victim이 Attacker가 조작한 링크를 클릭 및 URL 접근 시, 악성 스크립트가 포함된 응답이 반영되는 방식
+- **DOM-based XSS**: 원래 서버 응답은 변경하지 않고, 클라이언트 측에서 DOM(Document Object Model)을 조작하여 악성 스크립트를 실행하는 방식(URL의 해시 '#' 뒤에 이:ㅆ는 데이터를 이용하는 경우가 대표적)
 <br/><br/>
 
 ## 페이로드 Referer to ... 
